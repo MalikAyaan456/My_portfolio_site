@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malik Ayaan Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto p-6 flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Malik Ayaan Portfolio</h1>
+      <nav>
+        <a href="#introduction" class="mx-2 hover:text-blue-600">Introduction</a>
+        <a href="#projects" class="mx-2 hover:text-blue-600">My Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Introduction Section -->
+  <section id="introduction" class="py-10 px-6">
+    <h1 class="text-3xl font-bold mb-4">Introduction</h1>
+    <p class="text-lg text-gray-700 border-l-4 border-blue-500 pl-4">
+      I am Malik Ayaan. I am student of class 8, I am a AI engineer and I have made this site during summer camp.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-white py-10 px-6">
+    <h1 class="text-3xl font-bold mb-4">My Projects</h1>
+    <p class="text-lg text-gray-700 border-l-4 border-green-500 pl-4">
+      I have made some AI projects during summer camp you can easily try them.
+    </p>
+
+    <!-- Space -->
+    <div class="my-6"></div>
+
+    <!-- Projects Table -->
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-gray-50 rounded-lg overflow-hidden">
+        <thead>
+          <tr class="bg-blue-200 text-left">
+            <th class="py-3 px-4">No.</th>
+            <th class="py-3 px-4">Project</th>
+            <th class="py-3 px-4">Link</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-800">
+          <tr class="border-t">
+            <td class="py-2 px-4">1</td>
+            <td class="py-2 px-4">AI Story Generator</td>
+            <td class="py-2 px-4">
+              <a href="https://huggingface.co/spaces/MalikAyaanAhmed1123/ai-story-generator" target="_blank" class="text-blue-600 underline">Visit</a>
+            </td>
+          </tr>
+          <tr class="border-t">
+            <td class="py-2 px-4">2</td>
+            <td class="py-2 px-4">Image Creator Bot</td>
+            <td class="py-2 px-4">
+              <a href="https://huggingface.co/spaces/MalikAyaanAhmed1123/Mock_interview_generator" target="_blank" class="text-blue-600 underline">Visit</a>
+            </td>
+          </tr>
+          <!-- Add more rows here if you create more projects -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-4 text-center mt-10">
+    <p>&copy; 2025 Malik Ayaan</p>
+  </footer>
+</body>
+</html>
